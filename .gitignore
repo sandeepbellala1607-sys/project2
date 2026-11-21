@@ -5,10 +5,9 @@ node_modules/
 dist/
 .vite/
 
-# Local environment variables (keep the example template)
+# Local environment variables and templates
 .env
 .env.*
-!.env.example
 
 # Deployment metadata
 .vercel/
