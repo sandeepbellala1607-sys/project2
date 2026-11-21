@@ -1,0 +1,16 @@
+# ==============================================================================
+# NETLIFY & CLOUDFLARE PAGES ROUTING & REDIRECT RULES
+# ==============================================================================
+
+# 1. Canonical Redirect: www to apex domain with HTTPS
+https://www.myexpensetracker.com/*  https://myexpensetracker.com/:splat  301!
+http://myexpensetracker.com/*       https://myexpensetracker.com/:splat  301!
+http://www.myexpensetracker.com/*   https://myexpensetracker.com/:splat  301!
+
+# 2. SPA Fallback: Rewrite all client routes to /index.html with status 200
+/dashboard           /index.html   200
+/transactions        /index.html   200
+/add-transaction     /index.html   200
+/reports             /index.html   200
+/budget              /index.html   200
+/*                   /index.html   200

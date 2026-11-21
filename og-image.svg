@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  
+  <!-- Subtle decorative circles -->
+  <circle cx="1050" cy="150" r="280" fill="#2563eb" opacity="0.15" />
+  <circle cx="150" cy="500" r="220" fill="#10b981" opacity="0.1" />
+
+  <!-- Logo Icon Container (Lighting Bulb Structure) -->
+  <rect x="120" y="120" width="80" height="80" rx="20" fill="url(#cardGrad)" />
+  <!-- Rays -->
+  <line x1="160" y1="128" x2="160" y2="133" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" />
+  <line x1="138" y1="138" x2="142" y2="142" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" />
+  <line x1="182" y1="138" x2="178" y2="142" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" />
+  <!-- Glass Bulb -->
+  <path d="M150 178C145 174 142 168.5 142 162C142 152 150 144 160 144C170 144 178 152 178 162C178 168.5 175 174 170 178H150Z" fill="rgba(255, 255, 255, 0.2)" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Base Threads -->
+  <line x1="151" y1="184" x2="169" y2="184" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <line x1="154" y1="189" x2="166" y2="189" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <!-- Filament 'N' -->
+  <path d="M151 172V155L169 172V155" stroke="#fbbf24" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Typography -->
+  <text x="225" y="172" font-family="'Inter', sans-serif" font-size="44" font-weight="800" fill="#38bdf8" letter-spacing="-1">
+    NTSY.AI
+  </text>
+  <text x="120" y="270" font-family="'Inter', sans-serif" font-size="56" font-weight="700" fill="#f8fafc" letter-spacing="-1.5">
+    Manage Your Money Easily
+  </text>
+  <text x="120" y="335" font-family="'Inter', sans-serif" font-size="26" font-weight="400" fill="#94a3b8">
+    Track income, expenses, budgets, and spending patterns with a simple and efficient expense tracker.
+  </text>
+
+  <!-- Metric Badges Preview -->
+  <rect x="120" y="410" width="280" height="110" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="148" y="445" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="1">TOTAL BALANCE</text>
+  <text x="148" y="490" font-family="'Inter', sans-serif" font-size="34" font-weight="700" fill="#38bdf8">₹25,000</text>
+
+  <rect x="430" y="410" width="280" height="110" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="458" y="445" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="1">TOTAL INCOME</text>
+  <text x="458" y="490" font-family="'Inter', sans-serif" font-size="34" font-weight="700" fill="#34d399">+₹40,000</text>
+
+  <rect x="740" y="410" width="280" height="110" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="768" y="445" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="1">TOTAL EXPENSES</text>
+  <text x="768" y="490" font-family="'Inter', sans-serif" font-size="34" font-weight="700" fill="#f87171">-₹15,000</text>
+
+  <!-- Domain Tag -->
+  <text x="120" y="580" font-family="'Inter', sans-serif" font-size="20" font-weight="600" fill="#64748b">
+    https://myexpensetracker.com
+  </text>
+</svg>
